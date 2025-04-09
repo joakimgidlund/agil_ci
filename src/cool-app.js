@@ -2,7 +2,7 @@ import { toAllsprak, toRobber, toNormal } from "./translators.js"
 
 const template = document.createElement("template")
 template.innerHTML = `<div>
-                        <h1>The cool application!</h1>
+                        <h1>The coolEST application!</h1>
                         <textarea rows="20" cols="50" id="text"></textarea><br>
                         <input type="button" value="To Robber" id="robber">
                         <input type="button" value="To Allsprak" id="allsprak">
