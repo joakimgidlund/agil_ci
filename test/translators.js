@@ -18,6 +18,10 @@ describe("Translators", function () {
             const input = "Hejsan hoppsan!"
             assert.strictEqual(toNormal(input), input)
         })
+        it("should work for allsprak", function () {
+            const input = "Hejsan hoppsan!"
+            assert.strictEqual(toNormal(toAllsprak(input)), input)
+        })
         it("should work for robber language", function () {
             const input = "Hejsan hoppsan!"
             assert.strictEqual(toNormal(toRobber(input)), input)
